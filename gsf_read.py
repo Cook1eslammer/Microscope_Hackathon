@@ -65,4 +65,4 @@ def gsf_read(file_name):
 
 np.savetxt("2022.09.21_0a-2.txt", data, delimiter=",")
 plt.imshow(data)
-plt.show()
+plt.show()  # commentary
