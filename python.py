@@ -1,11 +1,9 @@
 import numpy as np
-import PIL as pl
+import pandas as pd
 import matplotlib.pyplot as plt
+from faker import Faker
 
-filename = "2022.09.21_0a-2.gsf"
-with pl.open(filename) as img:
-    img.load()
-    img.show()
+plt.style.use('ggplot')
 
 """
 def gsf_read(file_name):
